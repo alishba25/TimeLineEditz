@@ -1,15 +1,17 @@
-# Timeline Editz — coming soon page
+# Timeline Editz — Coming Soon
 
-## Deploy on Netlify
-1. Unzip this file.
-2. Go to app.netlify.com → Add new site → Deploy manually.
-3. Drag the `timeline-editz-coming-soon` folder onto the page.
-4. To use your domain: Site configuration → Domain management → Add a domain → timelineeditz.com, then follow Netlify's DNS steps in Namecheap.
+Static one-page site. No build step.
 
-## Sign-up emails
-"Reserve my seat" sends each sign-up to hello@timelineeditz.com through FormSubmit.
-After deploying, submit the form once yourself and click the activation link FormSubmit emails to hello@timelineeditz.com. Sign-ups are delivered after that.
+## Publish on Netlify
+1. Go to app.netlify.com → Add new site → Deploy manually.
+2. Drag this whole folder (or the zip) onto the page.
+3. Domain: Site settings → Domain management → add timelineeditz.com.
+
+## Email sign-ups
+The form uses Netlify Forms (form name: `launch-list`). After the first deploy,
+sign-ups appear under Site → Forms. Turn on email notifications there
+(Forms → Form notifications) to get each sign-up in your inbox.
 
 ## Files
-- index.html: the page (styles and script included)
-- assets/te-logo.png: logo and browser-tab icon
+- index.html — the page (styles and script included)
+- assets/te-logo.png — logo and favicon
